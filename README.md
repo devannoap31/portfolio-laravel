@@ -95,9 +95,10 @@ Open a new terminal tab and run:
 10. **Visit the App**<br>
 Open your browser and navigate to `http://localhost:8000`.
 
-👨‍💻 About the Author
+## 👨‍💻 About the Author
 Devanno Andhika Putra Software Engineering Technology Student at Politeknik Indonusa Surakarta. Passionate about Full-Stack Web Development and Artificial Intelligence.
 
 Feel free to reach out to me via the Contact section on the website!
 
+---
 Built with ❤️ using Laravel
