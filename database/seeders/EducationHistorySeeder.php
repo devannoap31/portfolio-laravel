@@ -15,16 +15,22 @@ class EducationHistorySeeder extends Seeder
     {
         DB::table('education_histories')->insert([
             [
-                'school_name' => 'High School A',
-                'degree' => 'Science',
-                'start_year' => 2015,
+                'school_name' => 'SD Negeri Pajang III Surakarta',
+                'degree' => 'Sekolah Dasar',
+                'start_year' => 2012,
                 'end_year' => 2018,
             ],
             [
-                'school_name' => 'University B',
-                'degree' => 'Computer Science',
+                'school_name' => 'SMP Negeri 9 Surakarta',
+                'degree' => 'Sekolah Menengah Pertama',
                 'start_year' => 2018,
-                'end_year' => 2022,
+                'end_year' => 2021,
+            ],
+            [
+                'school_name' => 'SMK Negeri 2 Surakarta',
+                'degree' => 'Teknik Komputer dan Jaringan',
+                'start_year' => 2021,
+                'end_year' => 2024,
             ],
         ]);
     }
