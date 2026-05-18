@@ -13,17 +13,14 @@ return new class extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->string('title');            // Judul proyek (contoh: SIMKAS)
+            $table->string('title');            // Judul proyek 
             $table->text('description');        // Penjelasan proyek
-            $table->string('tech_stack');       // Teknologi yang dipakai (contoh: "Laravel, MySQL")
-            $table->string('image')->nullable();// Nama file gambar (bisa dikosongkan dulu)
+            $table->string('tech_stack');       // Teknologi yang dipakai
+            $table->string('image')->nullable();// Nama file gambar yang ada di folder public/images
             $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
         Schema::dropIfExists('projects');
