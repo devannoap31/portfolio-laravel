@@ -26,11 +26,11 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                             <label for="name" class="block text-sm font-semibold text-slate-700 mb-2">Nama Lengkap</label>
-                            <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-600 focus:border-indigo-600 outline-none transition bg-slate-50 focus:bg-white" placeholder="Contoh: John Doe">
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-600 focus:border-indigo-600 outline-none transition bg-slate-50 focus:bg-white" placeholder="Contoh: Devanno Andhika Putra">
                         </div>
                         <div>
                             <label for="email" class="block text-sm font-semibold text-slate-700 mb-2">Email</label>
-                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-600 focus:border-indigo-600 outline-none transition bg-slate-50 focus:bg-white" placeholder="alamat@email.com">
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-600 focus:border-indigo-600 outline-none transition bg-slate-50 focus:bg-white" placeholder="devannoap318@gmail.com">
                         </div>
                     </div>
                     <div>
