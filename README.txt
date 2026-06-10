@@ -1,4 +1,4 @@
 cara akses CRUD
 localhost:8000/login
 
-App\Models\User::create(['name' => 'Admin Devanno', 'email' => 'admin@devanno.com', 'password' => bcrypt('rahasia123')]);
+App\Models\User::create(['name' => 'Admin', 'email' => 'dapsac85@gmail.com', 'password' => bcrypt('11111111')]);

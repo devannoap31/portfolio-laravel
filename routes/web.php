@@ -4,6 +4,7 @@ use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\Admin\EducationAdminController;
 use App\Http\Controllers\Admin\ContactAdminController;
+use App\Http\Controllers\Admin\ProjectAdminController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -34,9 +35,8 @@ Route::middleware('auth')->group(function () {
 // 3. RUTE ADMIN (CUSTOM CRUD & INBOX)
 // ==========================================
 Route::middleware(['auth', 'verified'])->prefix('admin')->name('admin.')->group(function () {
-    // Rute Inbox Pesan
     Route::get('/contacts', [ContactAdminController::class, 'index'])->name('contacts.index'); 
-    // Rute CRUD Pendidikan (Otomatis mencakup index, create, store, edit, update, destroy)
     Route::resource('education', EducationAdminController::class);
+    Route::resource('projects', ProjectAdminController::class);
 });
 require __DIR__.'/auth.php';
