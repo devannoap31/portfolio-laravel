@@ -7,10 +7,10 @@
         <!-- Main Welcome Block -->
         <div class="bg-white border-[5px] border-black p-8 md:p-12 rounded-none">
             <h1 class="font-['Archivo_Black'] text-4xl md:text-5xl text-black uppercase tracking-tight mb-4 leading-none">
-                Pusat Komando
+                CRUD Web Profile Devanno A.P
             </h1>
             <p class="font-['Work_Sans'] text-lg text-black leading-relaxed max-w-3xl mb-8">
-                Sistem Manajemen Konten (CMS) portofolio Anda beroperasi penuh dengan antarmuka <strong>RawBlock</strong>. Akses modul, tinjau statistik, dan kelola entri tanpa distraksi visual.
+                Sistem Manajemen Konten (CMS) portofolio dengan antarmuka <strong>RawBlock</strong>. Akses modul, tinjau statistik, dan kelola entri tanpa distraksi visual.
             </p>
             
             <div class="flex flex-wrap gap-4">
