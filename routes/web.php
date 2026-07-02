@@ -22,7 +22,11 @@ Route::post('/contact', [ContactController::class, 'store']);
 // 2. RUTE BAWAAN BREEZE (DASHBOARD & PROFILE)
 // ==========================================
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    $projectCount = \App\Models\Project::count();
+    $educationCount = \App\Models\EducationHistory::count();
+    $messageCount = \App\Models\Contact::count();
+
+    return view('dashboard', compact('projectCount', 'educationCount', 'messageCount'));
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {

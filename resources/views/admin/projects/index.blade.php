@@ -18,7 +18,7 @@
                 @foreach($projects as $project)
                     <div class="border-[5px] border-black bg-white flex flex-col">
                         <div class="border-b-[5px] border-black h-48 bg-[#F5F5F5] overflow-hidden">
-                            <img src="{{ asset('storage/' . $project->image) }}" alt="{{ $project->title }}" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-none">
+                            <img src="{{ $project->image_url }}" alt="{{ $project->title }}" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-none">
                         </div>
                         <div class="p-6 flex-grow flex flex-col">
                             <h3 class="font-['Archivo_Black'] uppercase text-xl text-black mb-2">{{ $project->title }}</h3>

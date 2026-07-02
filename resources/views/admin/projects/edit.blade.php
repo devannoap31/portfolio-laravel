@@ -41,7 +41,7 @@
                     @if($project->image)
                         <div class="border-[3px] border-black p-2 bg-[#F5F5F5] inline-block">
                             <p class="font-['Space_Mono'] font-bold text-xs uppercase mb-2">Gambar Saat Ini:</p>
-                            <img src="{{ asset('storage/' . $project->image) }}" alt="Current Image" class="h-32 object-cover border-[3px] border-black">
+                            <img src="{{ $project->image_url }}" alt="Current Image" class="h-32 object-cover border-[3px] border-black">
                         </div>
                     @endif
                     <x-input-error class="mt-2" :messages="$errors->get('image')" />

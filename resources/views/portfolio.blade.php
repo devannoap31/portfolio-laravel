@@ -16,7 +16,7 @@
                     
                     <div class="h-52 bg-slate-200 dark:bg-slate-700 relative overflow-hidden">
                         @if($project->image)
-                            <img src="{{ asset('images/' . $project->image) }}" alt="{{ $project->title }}" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                            <img src="{{ $project->image_url }}" alt="{{ $project->title }}" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         @else
                             <div class="absolute inset-0 bg-gradient-to-br from-indigo-500 to-purple-600 opacity-80 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                                 <span class="text-white font-medium text-lg tracking-wider">{{ $project->title }}</span>
