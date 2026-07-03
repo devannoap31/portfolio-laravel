@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        {{ __('Dashboard Utama') }}
+        {{ __('Dashboard Web Profile') }}
     </x-slot>
 
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-8 pb-12 mt-8">
@@ -10,7 +10,7 @@
                 CRUD Web Profile Devanno A.P
             </h1>
             <p class="font-['Work_Sans'] text-lg text-black leading-relaxed max-w-3xl mb-8">
-                Sistem Manajemen Konten (CMS) portofolio dengan antarmuka <strong>RawBlock</strong>. Akses modul, tinjau statistik, dan kelola entri tanpa distraksi visual.
+                CRUD website portofolio Devanno Andhika Putra dengan fitur melihat pesan dari pengunjung website, CRUD Education History, dan CRUD Portofolio.
             </p>
             
             <div class="flex flex-wrap gap-4">
@@ -19,6 +19,9 @@
                 </a>
                 <a href="{{ route('admin.education.index') }}" class="inline-block bg-white text-black border-[3px] border-black px-6 py-3 font-['Work_Sans'] font-bold uppercase tracking-[2px] hover:bg-black hover:text-white transition-none rounded-none text-sm md:text-base">
                     Kelola Pendidikan &rarr;
+                </a>
+                <a href="{{ route('admin.contacts.index') }}" class="inline-block bg-black text-white border-[3px] border-black px-6 py-3 font-['Work_Sans'] font-bold uppercase tracking-[2px] hover:bg-white hover:text-black transition-none rounded-none text-sm md:text-base">
+                    Lihat Pesan &rarr;
                 </a>
             </div>
         </div>
